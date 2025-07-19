@@ -41,11 +41,25 @@ const Location: React.FC = () => {
             </div>
             
             <div className="bg-slate-700 rounded-lg p-6">
-              <div className="aspect-video bg-gray-600 rounded-lg flex items-center justify-center">
-                <div className="text-center text-gray-400">
-                  <MapPin size={48} className="mx-auto mb-2" />
-                  <p>{t('location.mapPlaceholder')}</p>
-                </div>
+              <div className="aspect-video rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3481.8234567890123!2d47.9894!3d29.3743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzI3LjUiTiA0N8KwNTknMjEuOCJF!5e0!3m2!1sen!2skw!4v1234567890123!5m2!1sen!2skw"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="موقع شركة درة العالم - الكويت"
+                ></iframe>
+              </div>
+              <div className="mt-4 text-center">
+                <p className="text-gray-300 text-sm">
+                  📍 الإحداثيات: 29.3743° N, 47.9894° E
+                </p>
+                <p className="text-gray-400 text-xs mt-1">
+                  الكويت - المرقاب - شارع خالد بن الوليد - برج مزايا 1
+                </p>
               </div>
             </div>
           </div>

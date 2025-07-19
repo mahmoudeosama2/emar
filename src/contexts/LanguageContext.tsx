@@ -82,7 +82,7 @@ const translations = {
     'location.headquarters': 'Main Office',
     'location.projects': 'Project Areas',
     'location.projectsText': 'Jabriya, Salmiya, Hawally, Rumaithiya, and more',
-    'location.mapPlaceholder': 'Interactive Map Coming Soon',
+    'location.coordinates': 'Coordinates: 29.3743° N, 47.9894° E',
     
     // Contact
     'contact.title': 'Contact WORLD DURRA CO',
@@ -176,7 +176,7 @@ const translations = {
     'location.headquarters': 'المكتب الرئيسي',
     'location.projects': 'مناطق المشاريع',
     'location.projectsText': 'الجابرية، السالمية، حولي، الرميثية، وأكثر',
-    'location.mapPlaceholder': 'خريطة تفاعلية قريباً',
+    'location.coordinates': 'الإحداثيات: 29.3743° N, 47.9894° E',
     
     // Contact
     'contact.title': 'تواصل مع شركة درة العالم',
