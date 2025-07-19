@@ -6,7 +6,7 @@ const WhatsAppButton: React.FC = () => {
   const { t } = useLanguage();
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+971501234567'; // Replace with actual WhatsApp number
+    const phoneNumber = '+96522269915'; // Updated to Kuwait number
     const message = encodeURIComponent(t('whatsapp.message'));
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };

@@ -93,7 +93,7 @@ const Properties: React.FC = () => {
                   {property.description}
                 </p>
                 
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-3">
                   {property.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
@@ -101,10 +101,6 @@ const Properties: React.FC = () => {
                     </li>
                   ))}
                 </ul>
-                
-                <button className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-                  {t('properties.cta')}
-                </button>
               </div>
             </div>
           ))}

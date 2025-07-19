@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {t('contact.phone')}
               </h3>
-              <p className="text-white/90">+971 4 367 3333</p>
+              <p className="text-white/90">22269915</p>
             </div>
             
             <div className="text-center">
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {t('contact.email')}
               </h3>
-              <p className="text-white/90">info@emaar.ae</p>
+              <p className="text-white/90">info@hamedawada-int.com</p>
             </div>
             
             <div className="text-center">
@@ -45,7 +45,10 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {t('contact.address')}
               </h3>
-              <p className="text-white/90">Dubai, UAE</p>
+              <p className="text-white/90 text-sm">
+                الكويت - المرقاب - شارع خالد بن الوليد<br />
+                برج مزايا 1 - الدور 11 - مكتب رقم: ب 1
+              </p>
             </div>
           </div>
           
