@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">
-              {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}
+              {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}
             </h3>
             <p className="text-gray-300 mb-6">
               {t('footer.description')}
@@ -44,18 +44,30 @@ const Footer: React.FC = () => {
               <li><a href="#contact" className="text-gray-300 hover:text-amber-400 transition-colors">{t('nav.contact')}</a></li>
             </ul>
             
-            <div className="mt-6">
-              <h4 className="text-lg font-semibold mb-2">{t('footer.agent')}</h4>
-              <p className="text-gray-300">
-                {language === 'ar' ? 'موڤنبيك' : 'MOVENPICK'}
-              </p>
+            <div className="mt-6 space-y-3">
+              <div>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.agent')}</h4>
+                <p className="text-gray-300">
+                  {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}
+                </p>
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.operator')}</h4>
+                <p className="text-gray-300">ACCOR</p>
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.owner')}</h4>
+                <p className="text-gray-300">
+                  {language === 'ar' ? 'حامد عوض إنترناشونال' : 'HAMED AWADH INTERNATIONAL'}
+                </p>
+              </div>
             </div>
           </div>
           
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('footer.contact')}</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>الهاتف: 22269915</li>
+              <li>الهاتف: +965 6777 7177</li>
               <li>info@hamedawada-int.com</li>
               <li>الكويت - المرقاب</li>
               <li>شارع خالد بن الوليد</li>
@@ -66,7 +78,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 {language === 'ar' ? 'شركة درة العالم' : 'World Durra Co'}. {t('footer.rights')}</p>
+          <p>&copy; 2024 {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}. {t('footer.rights')}</p>
         </div>
       </div>
     </footer>

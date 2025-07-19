@@ -6,63 +6,63 @@ const Properties: React.FC = () => {
 
   const properties = [
     {
-      image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg',
-      title: t('properties.luxury.title'),
-      description: t('properties.luxury.description'),
+      image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg',
+      title: t('properties.hotel.title'),
+      description: t('properties.hotel.description'),
       features: [
-        t('properties.luxury.features.0'),
-        t('properties.luxury.features.1'),
-        t('properties.luxury.features.2')
+        t('properties.hotel.features.0'),
+        t('properties.hotel.features.1'),
+        t('properties.hotel.features.2')
+      ]
+    },
+    {
+      image: 'https://images.pexels.com/photos/264507/pexels-photo-264507.jpeg',
+      title: t('properties.mall.title'),
+      description: t('properties.mall.description'),
+      features: [
+        t('properties.mall.features.0'),
+        t('properties.mall.features.1'),
+        t('properties.mall.features.2')
+      ]
+    },
+    {
+      image: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg',
+      title: t('properties.portfolio.title'),
+      description: t('properties.portfolio.description'),
+      features: [
+        t('properties.portfolio.features.0'),
+        t('properties.portfolio.features.1'),
+        t('properties.portfolio.features.2')
       ]
     },
     {
       image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg',
-      title: t('properties.modern.title'),
-      description: t('properties.modern.description'),
+      title: t('properties.jabriya.title'),
+      description: t('properties.jabriya.description'),
       features: [
-        t('properties.modern.features.0'),
-        t('properties.modern.features.1'),
-        t('properties.modern.features.2')
-      ]
-    },
-    {
-      image: 'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
-      title: t('properties.commercial.title'),
-      description: t('properties.commercial.description'),
-      features: [
-        t('properties.commercial.features.0'),
-        t('properties.commercial.features.1'),
-        t('properties.commercial.features.2')
-      ]
-    },
-    {
-      image: 'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg',
-      title: t('properties.waterfront.title'),
-      description: t('properties.waterfront.description'),
-      features: [
-        t('properties.waterfront.features.0'),
-        t('properties.waterfront.features.1'),
-        t('properties.waterfront.features.2')
+        t('properties.jabriya.features.0'),
+        t('properties.jabriya.features.1'),
+        t('properties.jabriya.features.2')
       ]
     },
     {
       image: 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg',
-      title: t('properties.penthouse.title'),
-      description: t('properties.penthouse.description'),
+      title: t('properties.salmiya.title'),
+      description: t('properties.salmiya.description'),
       features: [
-        t('properties.penthouse.features.0'),
-        t('properties.penthouse.features.1'),
-        t('properties.penthouse.features.2')
+        t('properties.salmiya.features.0'),
+        t('properties.salmiya.features.1'),
+        t('properties.salmiya.features.2')
       ]
     },
     {
       image: 'https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg',
-      title: t('properties.mixed.title'),
-      description: t('properties.mixed.description'),
+      title: t('properties.other.title'),
+      description: t('properties.other.description'),
       features: [
-        t('properties.mixed.features.0'),
-        t('properties.mixed.features.1'),
-        t('properties.mixed.features.2')
+        t('properties.other.features.0'),
+        t('properties.other.features.1'),
+        t('properties.other.features.2')
       ]
     }
   ];

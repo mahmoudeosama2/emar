@@ -54,7 +54,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               className="md:hidden text-white"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+            {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}
           </div>
         </div>
 
