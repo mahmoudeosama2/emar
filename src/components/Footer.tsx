@@ -11,22 +11,22 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">
-              {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}
+              {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}
             </h3>
             <p className="text-gray-300 mb-6">
               {t('footer.description')}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
+              <a href="https://www.facebook.com/mahmoudeosama2" target="_blank" rel="noopener noreferrer" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
+              <a href="https://www.instagram.com/shortzz122/" target="_blank" rel="noopener noreferrer" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
+              <a href="https://www.linkedin.com/in/mahmoud-osama-6030a52a3/" target="_blank" rel="noopener noreferrer" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="#" className="bg-slate-800 hover:bg-amber-500 p-3 rounded-full transition-colors">
@@ -46,19 +46,21 @@ const Footer: React.FC = () => {
             
             <div className="mt-6 space-y-3">
               <div>
-                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.agent')}</h4>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.company')}</h4>
                 <p className="text-gray-300">
-                  {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}
+                  {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}
                 </p>
               </div>
               <div>
-                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.operator')}</h4>
-                <p className="text-gray-300">ACCOR</p>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.agent')}</h4>
+                <p className="text-gray-300">
+                  {language === 'ar' ? 'موڤنبيك' : 'MÖVENPICK'}
+                </p>
               </div>
               <div>
-                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.owner')}</h4>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.services')}</h4>
                 <p className="text-gray-300">
-                  {language === 'ar' ? 'حامد عوض إنترناشونال' : 'HAMED AWADH INTERNATIONAL'}
+                  {language === 'ar' ? 'إدارة وتأجير العقارات' : 'Property Management & Leasing'}
                 </p>
               </div>
             </div>
@@ -78,7 +80,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 {language === 'ar' ? 'موڤنبيك ستار' : 'MÖVENPICK STAR'}. {t('footer.rights')}</p>
+          <p>&copy; 2024 {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}. {t('footer.rights')}</p>
         </div>
       </div>
     </footer>

@@ -20,8 +20,8 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero Section
-    'hero.title': 'MÖVENPICK HOTEL & MALL AL-JABRIYA',
-    'hero.subtitle': 'Supervised by MÖVENPICK STAR • Operated by ACCOR • Owned by HAMED AWADH INTERNATIONAL REAL ESTATE',
+    'hero.title': 'WORLD DURRA CO',
+    'hero.subtitle': 'For Management and Leasing Owned or Leased Real Estate • Authorized Agent: MÖVENPICK',
     'hero.cta': 'Contact Us',
     
     // Features
@@ -68,8 +68,8 @@ const translations = {
     'properties.other.features.2': 'Bnied Al-Gar: 4-building complex',
     
     // About
-    'about.title': 'About MÖVENPICK STAR',
-    'about.description': 'A company specialized in operating and managing hospitality and retail developments, partnering with global brands such as Accor – Mövenpick. It directly oversees the management and performance of the project, ensuring operational excellence.',
+    'about.title': 'About WORLD DURRA CO',
+    'about.description': 'A leading company specialized in management and leasing of owned or leased real estate properties. We work with authorized agents including MÖVENPICK to ensure the highest standards of property management and leasing services.',
     'about.stats.experience': 'Years of Excellence',
     'about.stats.projects': 'Managed Properties',
     'about.stats.locations': 'Strategic Locations',
@@ -85,7 +85,7 @@ const translations = {
     'location.mapPlaceholder': 'Interactive Map Coming Soon',
     
     // Contact
-    'contact.title': 'Contact MÖVENPICK STAR',
+    'contact.title': 'Contact WORLD DURRA CO',
     'contact.description': 'Get in touch with our professional team for all your hospitality and real estate needs.',
     'contact.phone': 'Phone',
     'contact.email': 'Email',
@@ -93,13 +93,13 @@ const translations = {
     'contact.cta': 'Get in Touch',
     
     // Footer
-    'footer.description': 'MÖVENPICK HOTEL & MALL AL-JABRIYA - Supervised by MÖVENPICK STAR, Operated by ACCOR, Owned by HAMED AWADH INTERNATIONAL REAL ESTATE.',
+    'footer.description': 'WORLD DURRA CO - For Management and Leasing Owned or Leased Real Estate. Authorized Agent: MÖVENPICK.',
     'footer.quickLinks': 'Quick Links',
     'footer.contact': 'Contact Info',
     'footer.rights': 'All rights reserved.',
-    'footer.agent': 'Supervised by',
-    'footer.operator': 'Operated by',
-    'footer.owner': 'Owned by',
+    'footer.agent': 'Authorized Agent',
+    'footer.company': 'Company',
+    'footer.services': 'Services',
     
     // WhatsApp
     'whatsapp.message': 'Hello! I\'m interested in learning more about Mövenpick Hotel & Mall Al-Jabriya project.',
@@ -114,8 +114,8 @@ const translations = {
     'nav.contact': 'اتصل بنا',
     
     // Hero Section
-    'hero.title': 'مشروع فندق ومول موڤنبيك – الجابرية',
-    'hero.subtitle': 'بإشراف شركة موڤنبيك ستار • مُشغل من قبل أكور • ملكية شركة حامد عوض إنترناشونال العقارية',
+    'hero.title': 'شركة درة العالم',
+    'hero.subtitle': 'لإدارة وتأجير العقارات المملوكة أو المؤجرة • الوكيل المعتمد: موڤنبيك',
     'hero.cta': 'تواصل معنا',
     
     // Features
@@ -162,8 +162,8 @@ const translations = {
     'properties.other.features.2': 'بنيد القار: مجمع من 4 عمارات',
     
     // About
-    'about.title': 'حول شركة موڤنبيك ستار',
-    'about.description': 'شركة متخصصة في إدارة وتشغيل المشاريع العقارية الفندقية والتجارية، من خلال شراكاتها مع علامات عالمية مثل أكور – موڤنبيك. تشرف على تطوير وتشغيل المشروع، لضمان أفضل جودة تشغيلية وتجارية.',
+    'about.title': 'حول شركة درة العالم',
+    'about.description': 'شركة رائدة متخصصة في إدارة وتأجير العقارات المملوكة أو المؤجرة. نعمل مع وكلاء معتمدين مثل موڤنبيك لضمان أعلى معايير إدارة وتأجير العقارات.',
     'about.stats.experience': 'سنوات التميز',
     'about.stats.projects': 'العقارات المُدارة',
     'about.stats.locations': 'المواقع الاستراتيجية',
@@ -179,7 +179,7 @@ const translations = {
     'location.mapPlaceholder': 'خريطة تفاعلية قريباً',
     
     // Contact
-    'contact.title': 'تواصل مع موڤنبيك ستار',
+    'contact.title': 'تواصل مع شركة درة العالم',
     'contact.description': 'تواصل مع فريقنا المهني لجميع احتياجاتك الفندقية والعقارية.',
     'contact.phone': 'الهاتف',
     'contact.email': 'البريد الإلكتروني',
@@ -187,16 +187,16 @@ const translations = {
     'contact.cta': 'تواصل معنا',
     
     // Footer
-    'footer.description': 'مشروع فندق ومول موڤنبيك – الجابرية - بإشراف شركة موڤنبيك ستار، مُشغل من قبل أكور، ملكية شركة حامد عوض إنترناشونال العقارية.',
+    'footer.description': 'شركة درة العالم - لإدارة وتأجير العقارات المملوكة أو المؤجرة. الوكيل المعتمد: موڤنبيك.',
     'footer.quickLinks': 'روابط سريعة',
     'footer.contact': 'معلومات الاتصال',
     'footer.rights': 'جميع الحقوق محفوظة.',
-    'footer.agent': 'بإشراف',
-    'footer.operator': 'مُشغل من قبل',
-    'footer.owner': 'ملكية',
+    'footer.agent': 'الوكيل المعتمد',
+    'footer.company': 'الشركة',
+    'footer.services': 'الخدمات',
     
     // WhatsApp
-    'whatsapp.message': 'مرحباً! أنا مهتم بمعرفة المزيد عن مشروع فندق ومول موڤنبيك الجابرية.',
+    'whatsapp.message': 'مرحباً! أنا مهتم بمعرفة المزيد عن خدمات شركة درة العالم العقارية.',
     'whatsapp.label': 'محادثة على واتساب'
   }
 };

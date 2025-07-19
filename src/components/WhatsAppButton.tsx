@@ -6,7 +6,7 @@ const WhatsAppButton: React.FC = () => {
   const { t } = useLanguage();
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+96567777177'; // Mövenpick Star number
+    const phoneNumber = '+96522269915'; // World Durra Co number
     const message = encodeURIComponent(t('whatsapp.message'));
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
